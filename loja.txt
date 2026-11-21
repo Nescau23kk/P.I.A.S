@@ -1,1 +1,29 @@
-Sanduíche de Frango;0;5;16.00
+Sanduíche de Frango;0;28;16.00
+Sanduíche de Atum;0;30;17.00
+Sanduíche Caprese;0;30;18.00
+Sanduíche de Queijo Branco;0;30;16.00
+Sanduíche Vegano;0;30;17.00
+Wrap Natural;0;30;16.00
+Tapioca Integral;1;30;15.00
+Pão de Queijo Fit;1;30;6.00
+Wrap de Vegetais;1;30;15.00
+Salada no Pote;1;30;14.00
+Mix de Folhas;2;30;14.00
+Frango Desfiado;2;30;15.00
+Atum Temperado;2;30;16.00
+Combo Leve;2;30;22.00
+Sanduíche Veggie;3;25;16.00
+Wrap Veggie;3;30;15.00
+Salada Rica;3;30;16.00
+Suco Detox Verde;3;30;12.00
+Laranja;4;30;10.00
+Limão;4;30;10.00
+Maracujá;4;30;11.00
+Morango;4;30;11.00
+Abacaxi com Hortelã;4;30;12.00
+Suco de Melancia;4;30;11.00
+Brownie Fit;5;30;10.00
+Cookie Integral;5;30;8.00
+Salada de Frutas;5;30;9.00
+Mousse Light;5;30;11.00
+Açaí Puro;5;30;14.00

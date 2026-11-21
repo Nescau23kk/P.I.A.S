@@ -94,6 +94,36 @@ void listar_categorias() {
 
 // CADASTRO E LISTAGEM DE PRODUTOS
 
+void repor_estoque() {
+    int id, quantidade;
+
+    listar_produtos();
+
+    printf("\nDigite o ID do produto: ");
+    scanf("%d", &id);
+
+    if (id < 1 || id > total_produtos) {
+        printf("ID invalido!\n");
+        pausar();
+        return;
+    }
+
+    printf("Quantidade que deseja adicionar: ");
+    scanf("%d", &quantidade);
+
+    if (quantidade <= 0) {
+        printf("Quantidade invalida!\n");
+    } else {
+        estoque[id - 1] += quantidade;
+        printf("\nEstoque atualizado com sucesso!\n");
+        printf("Novo estoque de %s: %d\n",
+               nome[id - 1], estoque[id - 1]);
+    }
+
+    while (getchar() != '\n');
+    pausar();
+}
+
 void cadastrar_produto() {
     int cod_categ;
 
@@ -328,6 +358,7 @@ void conta_func() {
         printf("3. Listar produtos\n");
         printf("4. Salvar dados em TXT\n");
         printf("5. Carregar dados de TXT\n");
+        printf("6. Repor estoque\n");
         printf("0. Voltar\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
@@ -339,6 +370,7 @@ void conta_func() {
             case 3: listar_produtos(); break;
             case 4: salvar_dados(); break;
             case 5: carregar_dados(); break;
+            case 6: repor_estoque(); break;
             case 0: break;
             default:
                 printf("Opcao invalida!\n");
