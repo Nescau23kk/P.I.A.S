@@ -93,6 +93,7 @@ void listar_categorias() {
 }
 
 // CADASTRO E LISTAGEM DE PRODUTOS
+void listar_produtos();
 
 void repor_estoque() {
     int id, quantidade;
